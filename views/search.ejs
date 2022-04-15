@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="CSS/style.css" />
+<html>
+  <center>
+    <div class="logo">
+      <img alt="Weaviate" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoe2e-Uhx91ATLq43VaaWx0IKOInlIFlGeBQ&usqp=CAU">
+    </div>
+    <form action="/search" spellcheck="false" method="post"> 
+    <div class="bar">
+      <input class="searchbar" name="searched_data" type="text" title="Search" placeholder="Type your question here!">
+      
+    </div>
+    <div class="buttons">
+      <button class="button" type="submit">Ask!</button>
+     </div>
+     </form>
+     <% if(answer.length!=null){%>
+      <h2  class="answer" style="font-size: 5em; color:#fa0171;  display: inline;">Answer: <%=answer%></h2>
+      <% } %> 
+    </body>
+</center>
+</html>
