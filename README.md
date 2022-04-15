@@ -1,0 +1,2 @@
+# weaviate-generic-qna-module
+ 
