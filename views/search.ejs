@@ -14,8 +14,13 @@
       <button class="button" type="submit">Ask!</button>
      </div>
      </form>
+     <% if(answer==null){%>
+     <h2  class="answer" style="font-size: 5em; color:#fa0171;  display: inline;">No Results for given Question!</h2>
+     <% } %> 
+     <% if(answer!=null){%>
      <% if(answer.length!=null){%>
       <h2  class="answer" style="font-size: 5em; color:#fa0171;  display: inline;">Answer: <%=answer%></h2>
+      <% } %> 
       <% } %> 
     </body>
 </center>
